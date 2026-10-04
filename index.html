@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tanishqaa — A Little Book</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =========================================
+         BOOK
+    ========================================== -->
+
+    <main class="book-container">
+
+        <!-- =====================================
+             BOOKMARK
+        ====================================== -->
+
+        <div class="bookmark">
+            <span>✦</span>
+        </div>
+
+
+        <!-- =====================================
+             COVER
+        ====================================== -->
+
+        <section class="book cover" id="cover">
+
+            <div class="cover-decoration top">
+                ✦
+            </div>
+
+            <div class="cover-content">
+
+                <p class="small-text">
+                    A LITTLE BOOK BY
+                </p>
+
+                <h1>
+                    Tanishqaa
+                </h1>
+
+                <p class="subtitle">
+                    a collection of things<br>
+                    that make me, me.
+                </p>
+
+                <button class="open-book" id="openBook">
+                    Open the book
+                    <span>→</span>
+                </button>
+
+            </div>
+
+            <div class="cover-decoration bottom">
+                ✦
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             INSIDE OF BOOK
+        ====================================== -->
+
+        <section class="book inside" id="inside">
+
+
+            <!-- =================================
+                 LEFT PAGE
+            ================================== -->
+
+            <div class="page left-page">
+
+                <div class="page-number">
+                    i
+                </div>
+
+                <div class="page-content">
+
+                    <p class="eyebrow">
+                        welcome, reader
+                    </p>
+
+                    <h2>
+                        Come on in.
+                    </h2>
+
+                    <div class="page-illustration">
+                        <div class="illustration-star">
+                            ✦
+                        </div>
+
+                        <div class="illustration-line"></div>
+
+                        <div class="illustration-star small">
+                            ✧
+                        </div>
+                    </div>
+
+                    <p>
+                        This is a little corner of the internet
+                        where I keep the things I love, make,
+                        and care about.
+                    </p>
+
+                    <p>
+                        There are a few pages waiting for you.
+                    </p>
+
+                    <p class="handwritten">
+                        take your time. there's no rush here →
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================
+                 RIGHT PAGE
+                 CONTENTS
+            ================================== -->
+
+            <div class="page right-page" id="rightPage">
+
+                <div class="page-number">
+                    ii
+                </div>
+
+                <div class="page-content" id="contentsPage">
+
+                    <p class="eyebrow">
+                        contents
+                    </p>
+
+                    <h2>
+                        A few chapters
+                    </h2>
+
+                    <div class="tiny-flower">
+                        ✿
+                    </div>
+
+
+                    <nav class="contents">
+
+                        <button class="chapter" data-page="about">
+                            <span>01</span>
+                            <span>A little about me</span>
+                        </button>
+
+                        <button class="chapter" data-page="love">
+                            <span>02</span>
+                            <span>Things I love</span>
+                        </button>
+
+                        <button class="chapter" data-page="projects">
+                            <span>03</span>
+                            <span>Things I've made</span>
+                        </button>
+
+                    </nav>
+
+
+                    <div class="contents-footer">
+                        <span>✦</span>
+                        <span>choose a chapter</span>
+                        <span>✦</span>
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     ABOUT PAGE
+                ================================== -->
+
+                <div class="chapter-content" id="about">
+
+                    <div class="page-number">
+                        01
+                    </div>
+
+                    <div class="page-content">
+
+                        <p class="eyebrow">
+                            chapter one
+                        </p>
+
+                        <h2>
+                            A little about me
+                        </h2>
+
+                        <p>
+                            I am simple yet complex.
+                            Little things make me happy,
+                            but they matter a lot as well.
+                        </p>
+
+                        <p>
+                            I love to read, write, explore,
+                            learn new things, and somehow
+                            find myself wanting to do
+                            everything in life.
+                        </p>
+
+                        <p>
+                            I'm curious about people,
+                            ideas, stories, psychology,
+                            creativity, and all the little
+                            things that make us human.
+                        </p>
+
+                        <p class="handwritten">
+                            still figuring things out,
+                            one page at a time.
+                        </p>
+
+                        <button class="back-button">
+                            ← back to contents
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     LOVE PAGE
+                ================================== -->
+
+                <div class="chapter-content" id="love">
+
+                    <div class="page-number">
+                        02
+                    </div>
+
+                    <div class="page-content">
+
+                        <p class="eyebrow">
+                            chapter two
+                        </p>
+
+                        <h2>
+                            Things I love
+                        </h2>
+
+
+                        <div class="love-grid">
+
+                            <div class="love-item">
+                                <span class="love-icon">📚</span>
+                                <span>Books</span>
+                            </div>
+
+                            <div class="love-item">
+                                <span class="love-icon">☕</span>
+                                <span>Coffee</span>
+                            </div>
+
+                            <div class="love-item">
+                                <span class="love-icon">🎵</span>
+                                <span>Music</span>
+                            </div>
+
+                            <div class="love-item">
+                                <span class="love-icon">🌸</span>
+                                <span>Flowers</span>
+                            </div>
+
+                            <div class="love-item">
+                                <span class="love-icon">🫂</span>
+                                <span>Friends</span>
+                            </div>
+
+                            <div class="love-item">
+                                <span class="love-icon">🍳</span>
+                                <span>Cooking</span>
+                            </div>
+
+                            <div class="love-item">
+                                <span class="love-icon">✍️</span>
+                                <span>Writing</span>
+                            </div>
+
+                            <div class="love-item">
+                                <span class="love-icon">📖</span>
+                                <span>Reading</span>
+                            </div>
+
+                        </div>
+
+
+                        <p class="handwritten">
+                            especially the tiny, ordinary things.
+                        </p>
+
+
+                        <button class="back-button">
+                            ← back to contents
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     PROJECTS PAGE
+                ================================== -->
+
+                <div class="chapter-content" id="projects">
+
+                    <div class="page-number">
+                        03
+                    </div>
+
+                    <div class="page-content">
+
+                        <p class="eyebrow">
+                            chapter three
+                        </p>
+
+                        <h2>
+                            Things I've made
+                        </h2>
+
+
+                        <!-- FEATURED PROJECT -->
+
+                        <article class="project featured-project">
+
+                            <div class="project-number">
+                                01
+                            </div>
+
+                            <div class="project-info">
+
+                                <h3>
+                                    Code-a-Day
+                                </h3>
+
+                                <p>
+                                    An interactive day-planning quiz
+                                    where your answers shape your ideal
+                                    day, ending with a custom playlist
+                                    generated just for you.
+                                </p>
+
+                                <a
+                                    href="https://tanishqaathukral27-cell.github.io/Code-a-day/"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    visit project →
+                                </a>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- OTHER PROJECTS -->
+
+                        <article class="project">
+
+                            <div class="project-number">
+                                02
+                            </div>
+
+                            <div class="project-info">
+
+                                <h3>
+                                    My previous portfolio
+                                </h3>
+
+                                <p>
+                                    The first little corner of the
+                                    internet I made for myself.
+                                </p>
+
+                                <a
+                                    href="https://tanishqaathukral27-cell.github.io/portfolio/"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    visit portfolio →
+                                </a>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- ELSEWHERE -->
+
+                        <div class="elsewhere">
+
+                            <p class="eyebrow">
+                                find me elsewhere
+                            </p>
+
+                            <div class="elsewhere-links">
+
+                                <a
+                                    href="https://substack.com/@diariesoftanishqaa"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Substack ↗
+                                </a>
+
+                                <a
+                                    href="https://www.linkedin.com/in/tanishqaa-thukral-7186a1406/?isSelfProfile=true"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    LinkedIn ↗
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <button class="back-button">
+                            ← back to contents
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
